@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanCode.Sudoku", "CleanCode.Sudoku\CleanCode.Sudoku.csproj", "{8A0CB52E-1171-44C7-9BE2-A95FCB84CBFE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanCode.Sudoku.Tests", "CleanCode.Sudoku.Tests\CleanCode.Sudoku.Tests.csproj", "{1EC6C4B4-7614-4D8C-B298-420ED0521BFF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8A0CB52E-1171-44C7-9BE2-A95FCB84CBFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A0CB52E-1171-44C7-9BE2-A95FCB84CBFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A0CB52E-1171-44C7-9BE2-A95FCB84CBFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A0CB52E-1171-44C7-9BE2-A95FCB84CBFE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1EC6C4B4-7614-4D8C-B298-420ED0521BFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1EC6C4B4-7614-4D8C-B298-420ED0521BFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1EC6C4B4-7614-4D8C-B298-420ED0521BFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1EC6C4B4-7614-4D8C-B298-420ED0521BFF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		VisualSVNWorkingCopyRoot = .
+	EndGlobalSection
+EndGlobal
