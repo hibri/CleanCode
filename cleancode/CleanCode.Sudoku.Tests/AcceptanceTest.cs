@@ -1,9 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using NUnit.Framework;
-using NUnit.Framework.SyntaxHelpers;
 
 namespace CleanCode.Sudoku.Tests
 {
@@ -24,7 +20,7 @@ namespace CleanCode.Sudoku.Tests
 	public void impossible() {
 		int[,] problemGrid = Sudoku.parseProblem(SudokuExamples.NOT_SOLVABLE_PROBLEM);
 		int[,] actualSolution = Sudoku.solve(problemGrid);
-		Assert.IsNull(actualSolution);
+		Assert.That(actualSolution, Is.Null);
 	}
 
 	private void check(String problem, String solution) {
